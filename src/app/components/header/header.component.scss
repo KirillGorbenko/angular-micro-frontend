@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  background: red;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-item {
+  cursor: pointer;
+
+  &:hover {
+    transition: .5s;
+    color: white;
+  }
+}
